@@ -119,7 +119,7 @@ ol li
 { float: right; 
   padding-right: 25px;
   text-align: right; 
-  font: 500% 'tangerine', arial; 
+  font: 500% 'Yanone Kaffeesatz',arial; 
   color: #111;}
 
 #menubar
