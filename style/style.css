@@ -119,7 +119,7 @@ ol li
 { float: right; 
   padding-right: 25px;
   text-align: right; 
-  font: normal 500% 'Tangerine', cursive;
+  font-family: 'Tangerine', cursive;
   color: #111;}
 
 #menubar
