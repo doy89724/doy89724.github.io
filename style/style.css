@@ -20,12 +20,14 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 250%;
   color: #444;
   margin: 0 0 15px 0;
   padding: 5px 0 5px 0;}
 
 h2
 { font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 170%;
   color: #F14E23;  
   margin: 0;
   padding: 0 0 8px 0;}
@@ -103,6 +105,7 @@ ol li
 
 #logo h1
 { font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 350%;
   padding: 5px 0 0 17px;
   color: #555;
   float: left;}
@@ -120,6 +123,7 @@ ol li
   padding-right: 25px;
   text-align: right; 
   font-family: 'Tangerine', cursive;
+  font-size: 500%;
   color: #111;}
 
 #menubar
@@ -141,6 +145,7 @@ ul#menu li
 
 ul#menu li a
 { font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 170%;
   text-decoration: none;
   color: #444;
   display: block; 
@@ -234,6 +239,7 @@ padding: 25px 0 5px 25px;
 { clear: both;
   width: 100%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 150%;
   height: 85px;
   padding: 20px 0 5px 0;
   text-align: center; 
@@ -286,6 +292,7 @@ padding: 25px 0 5px 25px;
   padding: 5px 15px;
   background: #fff;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 140%;}
 
 .form_settings textarea, .form_settings select
 { font: 100% 'trebuchet ms', arial; 
@@ -321,7 +328,9 @@ padding: 25px 0 5px 25px;
   float: right;
   cursor: pointer;
   margin: 0;
-  font-family: 'Yanone Kaffeesatz', sans-serif;}
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 140%;
+}
  
 table
 { margin: 10px 0 30px 0;}
