@@ -1,129 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://zhuolinqu.github.io/</loc>
-  <lastmod>2018-10-12T02:26:39+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/index.html</loc>
-  <lastmod>2018-10-12T02:26:39+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/whatsnew.html</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations.html</loc>
-  <lastmod>2018-10-12T02:26:39+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/publications.html</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/teaching.html</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/files/CV_Qu.pdf</loc>
-  <lastmod>2018-10-12T02:26:39+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2018_slides_BEER_wolbachia_reducedModel.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/files/Epi_talk_Qu.pdf</loc>
-  <lastmod>2018-10-12T02:26:39+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2017_slides_PublicHealth_wolbachia.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2016_slides_PhD_defense.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2015_slides_LANL_voronoi.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2015_slides_IMACS_phase_field.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2014_slides_Tulane_MBL.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2018_poster_MBI_wolbachia_reduced.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2017_poster_SMB_wolbachia.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2015_Intro_Poster_PhaseField_KI-net.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2015_poster_KI-Net_phase_field.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2015_poster_LANL_voronoi.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/presentations/2015_poster_SCALA_phase_field.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/publications/Qu-Modeling-SIAP.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/publications/Cheng-Kurganov-Qu-Tang.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/publications/Kao-Kurganov-Qu-Wang.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/publications/Chertock-Kurganov-Qu-Wu.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zhuolinqu.github.io/publications/Thesis.pdf</loc>
-  <lastmod>2018-10-12T02:26:40+00:00</lastmod>
+  <lastmod>2018-10-14T19:34:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
 
 </urlset>
