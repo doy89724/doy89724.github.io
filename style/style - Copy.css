@@ -6,15 +6,14 @@ html
   padding: 0;}
 
 body
-{ font: normal 1em 'trebuchet ms', arial, sans-serif; 
+{ font: normal 0.85em 'trebuchet ms', arial, sans-serif;
   background: #F7F7F7 url(pattern.png) fixed;
   color: #555;}
 
 p
-{ font: normal 100% arial, helvetica neue, helvetica, sans-serif;
- padding: 0 0 20px 0;
+{ padding: 0 0 20px 0;
   line-height: 1.5em;
-}
+  font-size: 107%;}
 
 img
 { border: 0;}
@@ -23,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 { font: normal 250% 'Yanone Kaffeesatz', arial, sans-serif;
   color: #444;
   margin: 0 0 15px 0;
-  padding: 0px 0 5px 0;}
+  padding: 5px 0 5px 0;}
 
 h2
 { font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
@@ -32,7 +31,7 @@ h2
   padding: 0 0 8px 0;}
 
 h3
-{ font-size: 150%;
+{ font-size: 200%;
   margin: 0 0 9px 0;
   color: #444;}
 
@@ -75,7 +74,7 @@ ul
 ul li
 { list-style-type: circle;
   margin: 0 0 0 0; 
-  padding: 0px 0px 1px 1px;}
+  padding: 0 0 4px 5px;}
 
 ol
 { margin: 8px 0 22px 20px;}
@@ -125,7 +124,7 @@ ol li
 
 #menubar
 { height: 46px;
-  width: 800px;
+  width: 700px;
   margin: 0px auto -1px auto;
   float: right;
   padding: 0px 0 0 0;} 
@@ -141,7 +140,7 @@ ul#menu li
   background: transparent;}
 
 ul#menu li a
-{ font: normal 150% 'Yanone Kaffeesatz', sans-serif;
+{ font: normal 170% 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
   color: #444;
   display: block; 
