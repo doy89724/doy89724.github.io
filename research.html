@@ -13,10 +13,13 @@
 integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous">
     <link
-      href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz"
+href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400&amp;display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="css/academicons.min.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
   </head>
   <body>
     <div id="main">
@@ -41,76 +44,31 @@ integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fW
       <div id="site_content">
         <div id="contentf">
           <!-- insert the page content here -->
-          <h2>Research Interests<br>
-          </h2>
-          <p>I believe that epidemic modeling can foster knowledge of
-            the disease transmission dynamics, forecast the spread, and
-            optimize mitigation efforts. For these models to be useful,
-            they must <br>
-          </p>
-          <ul>
-            <li>
-              <p>have a solid mathematical formulation from realistic
-                biology and </p>
-            </li>
-            <li>
-              <p>be solved accurately using numerical methods.&nbsp;</p>
-            </li>
-          </ul>
-          <p>These two themes are the core of my studies.&nbsp; I
-            develop computational tools that advance the fields in both
-            mathematics and biology.<br>
+          <!-- Tab links -->
+          <div class="tab"> <button class="tablinks"
+              onclick="openCity(event, 'London')" id="defaultOpen">
+              Multiscale Compartmental Models<br>
+              <h21> Mosquito Control using Wolbachia</h21> </button> <button
+              class="tablinks" onclick="openCity(event, 'Paris')">
+              Network-based Model<br>
+              <h21> Sexually Transmitted Disease</h21> </button> <button
+              class="tablinks" onclick="openCity(event, 'Tokyo')">
+              Numerical Methods <br>
+              for Nonlinear PDEs </button> </div>
+          <!-- Tab content -->
+          <div id="London" class="tabcontent"> <br>
+            <p> Wolbachia is a natural bacteria present in up to 60% of
+              insect species but not found in Aedes aegypti (Ae.
+              aegypti) mosquito, the primary vectors transmitting the
+              Zika and dengue viruses. When Ae. aegypti mosquitoes gain
+              Wolbachia infection, it reduces the ability of mosquitoes
+              to spread the mosquito-borne diseases. <a
+                href="https://youtu.be/ut2UxF5gEDI">Video</a> from <a
+                href="http://www.eliminatedengue.com/program">World
+                Mosquito Program</a></p>
             <br>
-          </p>
-          <p> </p>
-          <h2>Mosquito Control using Wolbachia<br>
-          </h2>
-          <p> Wolbachia is a natural bacteria present in up to 60% of
-            insect species but not found in Aedes aegypti (Ae. aegypti)
-            mosquito, the primary vectors transmitting the Zika and
-            dengue viruses. When Ae. aegypti mosquitoes gain Wolbachia
-            infection, it reduces the ability of mosquitoes to spread
-            the mosquito-borne diseases. <a
-              href="https://youtu.be/ut2UxF5gEDI">Video</a> from <a
-              href="http://www.eliminatedengue.com/program">World
-              Mosquito Program</a></p>
-          <p> </p>
-          <p> We develop and analyze multiscale models to quantify a
-            threshold for creating a sustained infection in wild
-            mosquitoes.</p>
-          <font size="-1"><br>
-          </font>
-          <h2 align="center"><img alt=""
-              src="pics/vertical_transmission.jpg" width="767"
-              height="171" align="top"></h2>
-          <h5><b>Left</b>: Maternal transmission of Wolbachia from
-            infected females to their offspring. <b>Right</b>: A 9-ODE
-            compartmental system captured the detailed maternal
-            transmission routes and complex mosquito life-cycle. <br>
-          </h5>
-          <h5><img alt="" src="pics/bifurcation_comparison.png"
-              width="357" hspace="0" height="240" align="right"></h5>
-          <h5> </h5>
-          <p><b>Model Reduction</b>&nbsp; Starting from the original
-            9-ODE model, we derived a hierarchy of reduced models to
-            approximate the solutions of the original 9-ODE model while
-            retaining the key properties, such as basic reproductive
-            number, the backward bifurcation behavior of the system.<br>
-          </p>
-          <p><br>
-          </p>
-          <h3>Collaborators</h3>
-          <p> <a href="https://sse.tulane.edu/math/faculty/hyman">James
-              Mac Hyman</a> (Tulane University), <a
-              href="https://www.researchgate.net/profile/Ling_Xue8">Ling
-              Xue</a> (Harbin Engineering University, China), <a
-              href="https://sph.tulane.edu/trmd/dawn-wesson">Dawn Wesson</a>
-            (Tulane School of Public Health and Tropical Medicine), <a
-              href="https://tpanpim.wordpress.com/">Panpim Thongsripong</a>
-            (California Academy of Sciences, San Francisco).</p>
-          <br>
-          <p> <b> </b>Media coverage on our research</p>
-          <p> <a
+            <h3> Media coverage</h3>
+            <p> <a
 href="https://www.forbes.com/sites/rachelcrowell/2019/01/14/something-more-pleasant-than-the-government-shutdown-math-based-mosquito-control/?utm_source=Tulane%2BToday&amp;utm_campaign=50c9ea63b4-EMAIL_CAMPAIGN_2019_01_15_09_07&amp;utm_medium=email&amp;utm_term=0_5d09d9474c-50c9ea63b4-120956725#3f995bf252fa">Forbes
 
 
@@ -135,7 +93,15 @@ href="https://www.forbes.com/sites/rachelcrowell/2019/01/14/something-more-pleas
 
 
 
-              Magazine</a>&nbsp; <a
+
+
+
+
+
+
+
+
+                Magazine</a>&nbsp; <a
 href="https://www.tandfonline.com/doi/full/10.1080/10724117.2019.1574148">Math
 
 
@@ -160,8 +126,16 @@ href="https://www.tandfonline.com/doi/full/10.1080/10724117.2019.1574148">Math
 
 
 
-              Horizons</a>&nbsp; <a
-              href="https://www.lamonitor.com/content/solving-epidemics-math">Los
+
+
+
+
+
+
+
+
+                Horizons</a>&nbsp; <a
+                href="https://www.lamonitor.com/content/solving-epidemics-math">Los
 
 
 
@@ -185,7 +159,115 @@ href="https://www.tandfonline.com/doi/full/10.1080/10724117.2019.1574148">Math
 
 
 
-              Alamos Monitor</a>&nbsp; <a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alamos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Monitor</a>&nbsp; <a
 href="https://www.nola.com/health/index.ssf/2018/08/tulane_researchers_use_math_to.html">The
 
 
@@ -210,7 +292,115 @@ href="https://www.nola.com/health/index.ssf/2018/08/tulane_researchers_use_math_
 
 
 
-              Times-Picayune New Orleans</a>&nbsp;&nbsp; <a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Times-Picayune
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                New Orleans</a>&nbsp;&nbsp; <a
 href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosquitoes-limits-spread-of-life-threatening-diseases">SIAM
 
 
@@ -235,39 +425,152 @@ href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosqu
 
 
 
-              research nugget</a><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                nugget</a><br>
+              <br>
+            </p>
+            <h2>Starting from a 9-ODE model ...</h2>
+            <p> We develop and analyze multiscale models to quantify a
+              threshold for creating a sustained infection in wild
+              mosquitoes.</p>
+            <font size="-1"><br>
+            </font>
+            <h2 align="center"><img alt=""
+                src="pics/vertical_transmission.jpg" width="767"
+                height="171" align="top"></h2>
+            <h5><b>Left</b>: Maternal transmission of Wolbachia from
+              infected females to their offspring. <b>Right</b>: A
+              9-ODE compartmental system captured the detailed maternal
+              transmission routes and complex mosquito life-cycle. <br>
+            </h5>
+            <h2>Model reduction gives a 2-ODE model </h2>
+            <p> Starting from the original 9-ODE model, we derived a
+              hierarchy of reduced models to approximate the solutions
+              of the original 9-ODE model while retaining the key
+              properties, such as basic reproductive number, the
+              backward bifurcation behavior of the system.<br>
+            </p>
             <br>
-          </p>
-          <p><a
-href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosquitoes-limits-spread-of-life-threatening-diseases">
-            </a> </p>
-          <h2>Sexually Transmitted Disease - Chlamydia</h2>
-          <p> Chlamydia is the most commonly reported sexually
-            transmitted disease in the United States.&nbsp; Untreated
-            asymptomatic infections may cause permanent damage to the
-            women’s reproductive system.&nbsp; Routine screening is
-            recommended for women with risk factors to identify these
-            "silent" infections.<br>
+            <h2 align="center"><img alt=""
+                src="pics/bifurcation_comparison.png" height="210"
+                align="top"> <img alt=""
+                src="pics/phase_plane_9ODE.png" height="210" align="top"><img
+                alt="" src="pics/phase_plane_2ODE.png" height="210"
+                align="top"></h2>
+            <h2>What next...? </h2>
+            <p> We are working to extend the current models with spatial
+              dynamics to give more realistic predictions on Wolbachia
+              trials. </p>
             <br>
-          </p>
-          <p> We develop and analyze stochastic and individual-based
-            model to simulate the chlamydia epidemic on dynamic sexual
-            networks, and we evaluate the efficacy of screening
-            high-risk men to cont rol chlamydia prevalence in women.</p>
-          <p> Read more about the <a href="https://gocheckit.net/">"Check
-
-
-
-
-
-
-
-
-
-              It" Program</a>.</p>
-          <p> </p>
-          <div align="center"> <img src="pics/large_network.gif" alt=""
-              width="262" height="273" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3>Collaborators</h3>
+            <p> <a href="https://sse.tulane.edu/math/faculty/hyman">James
 
 
 
@@ -288,22 +591,150 @@ href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosqu
 
 
 
-            &nbsp; &nbsp; &nbsp; <img src="pics/SA_2D.jpg" alt=""
-              width="386" height="300" align="middle"><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Mac Hyman</a> (Tulane University), <a
+                href="https://www.researchgate.net/profile/Ling_Xue8">Ling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Xue</a> (Harbin Engineering University, China), <a
+                href="https://sph.tulane.edu/trmd/dawn-wesson">Dawn
+                Wesson</a> (Tulane School of Public Health and Tropical
+              Medicine), <a href="https://tpanpim.wordpress.com/">Panpim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Thongsripong</a> (California Academy of Sciences, San
+              Francisco).</p>
+            <br>
           </div>
-          <h5> <b>Left</b>: Chlamydia epidemic spread over a static
-            sexual network. Larger nodes (person) have more neighbors
-            (sexual partners). The infection status of each person is
-            tracked using the Susceptible (Green) - Infectious (Red) -
-            Susceptible (SIS) framework.&nbsp; <b>Right</b>: Model
-            prediction for the impact of male screening on the
-            prevalence in women under different intervention coverage.
-            Darker region gives a higher Chlamydia prevalence in women.
-          </h5>
-          <h3>Collaborators</h3>
-          <p><a href="https://sse.tulane.edu/math/faculty/hyman">James
-              Mac Hyman</a> (Tulane University) <a
-              href="https://sph.tulane.edu/epid/patricia-kissinger">Patricia
+          <div id="Paris" class="tabcontent"> <br>
+            <p> Chlamydia is the most commonly reported sexually
+              transmitted disease in the United States.&nbsp; Untreated
+              asymptomatic infections may cause permanent damage to the
+              women’s reproductive system.&nbsp; Routine screening is
+              recommended for women with risk factors to identify these
+              "silent" infections.<br>
+              <br>
+            </p>
+            <p> In close collaboration with Tulane School of Public
+              Health team, we develop and analyze a stochastic and
+              individual-based model to simulate the chlamydia epidemic
+              on dynamic sexual networks, and we evaluate the efficacy
+              of screening high-risk men to control chlamydia prevalence
+              in women. Read more about the <a
+                href="https://gocheckit.net/">"Check It" Program</a>. <br>
+            </p>
+            <br>
+            <p> The proposed model presents a robust framework for
+              modeling other sexually transmitted diseases spreading in
+              a population with assortative mixing. </p>
+            <div align="center"> <img src="pics/large_network.gif"
+                alt="" width="262" height="273" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
@@ -323,8 +754,6 @@ href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosqu
 
 
 
-              Kissinger</a> (Epidemiology, Tulane) <a
-              href="https://scholar.google.com/citations?user=F27PQPgAAAAJ&amp;hl=en">Asma
 
 
 
@@ -344,8 +773,6 @@ href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosqu
 
 
 
-              Azizi</a> (Arizona State University)&nbsp; <a
-              href="https://sph.tulane.edu/hpam/charles-stoecker">Charles
 
 
 
@@ -355,17 +782,718 @@ href="https://sinews.siam.org/Details-Page/sustained-bacterial-outbreak-in-mosqu
 
 
 
-              Stoecker</a> (Global Health Management and Policy, Tulane)<br>
-          </p>
-          <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              &nbsp; &nbsp; <img src="pics/SA_2D.jpg" alt=""
+                width="386" height="300" align="middle"><br>
+            </div>
+            <h5> <b>Left</b>: Chlamydia epidemic spread over a static
+              sexual network. Larger nodes (person) have more neighbors
+              (sexual partners). The infection status of each person is
+              tracked using the Susceptible (Green) - Infectious (Red) -
+              Susceptible (SIS) framework.&nbsp; <b>Right</b>: Model
+              prediction for the impact of male screening on the
+              prevalence in women under different intervention coverage.
+              Darker region gives a higher Chlamydia prevalence in
+              women. </h5>
+            <h3>Collaborators</h3>
+            <p><a href="https://sse.tulane.edu/math/faculty/hyman">James
+                Mac Hyman</a> (Tulane University) <a
+                href="https://sph.tulane.edu/epid/patricia-kissinger">Patricia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Kissinger</a> (Epidemiology, Tulane) <a
+                href="https://scholar.google.com/citations?user=F27PQPgAAAAJ&amp;hl=en">Asma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Azizi</a> (Arizona State University)&nbsp; <a
+                href="https://sph.tulane.edu/hpam/charles-stoecker">Charles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Stoecker</a> (Global Health Management and Policy,
+              Tulane)<br>
+            </p>
+          </div>
+          <div id="Tokyo" class="tabcontent"> <br>
+            <p>While most of my recent research is on modeling
+              infectious diseases, I have extensive experience in
+              developing numerical methods for nonlinear PDEs. </p>
+            <br>
+            <h3> Fast operator splitting methods for nonlinear PDEs</h3>
+            <p>The operator splitting methods are divide-and-conquer
+              strategies to solve the PDEs with operators of different
+              natures. The main idea is to decompose a complex equation
+              into simpler sub-equations, which provides great
+              flexibility in choosing different numerical methods for
+              each sub-problem.<br>
+              <br>
+            </p>
+            <h2>Phase Field Models</h2>
+            <p>Phase-field models are mathematical models for
+              interfacial phenomena. They were originally derived for
+              the microstructure evolution and phase transition, and
+              they have been extended to many other physical phenomena,
+              such as growth of cancerous tumors, phase separation of
+              block copolymers, and dewetting and rupture of thin liquid
+              films.<br>
+              <br>
+            </p>
+            <p> The <b>molecular beam epitaxy</b> (MBE) equation with
+              slop selection $$ u_{t}=-\delta \Delta^{2} u+\nabla
+              \cdot\left(|\nabla u|^{2} \nabla u-\nabla u\right), \quad
+              \delta&gt;0.$$ The <b>Cahn-Hilliard</b> equation $$
+              u_{t}=-\delta \Delta^{2}
+              u+\Delta\left(u^{3}-u\right),&nbsp; \quad \delta&gt;0.$$ </p>
+            <div align="center"><img
+src="file:///C:/Users/Zhuolin/Documents/GitHub/website/zhuolinqu.github.io%20-%20version2/pics/Screenshot_2.png"
+                alt="" width="282" height="200" align="top">&nbsp;&nbsp;
+              <img
+src="file:///C:/Users/Zhuolin/Documents/GitHub/website/zhuolinqu.github.io%20-%20version2/pics/Screenshot_3.png"
+                alt="" width="476" height="200" align="top"></div>
+            <div align="left">
+              <h5><b>Left:</b> Thin film epitaxy (MBE equation): the
+                deposition of a crystalline overlayer on a crystalline
+                substrate. <b>Right:</b> Phase separation
+                (Cahn-Hilliard equation): two components of a binary
+                fluid spontaneously separate and form domains pure in
+                each component </h5>
+            </div>
+            <div align="center"><img
+src="file:///C:/Users/Zhuolin/Documents/GitHub/website/zhuolinqu.github.io%20-%20version2/pics/Screenshot_4.png"
+                alt="" width="526" height="200" align="top"><img
+src="file:///C:/Users/Zhuolin/Documents/GitHub/website/zhuolinqu.github.io%20-%20version2/pics/Screenshot_5.png"
+                alt="" width="234" height="200" align="top"><br>
+            </div>
+            <h5 align="left"><b>Left and middle: </b>Solution of 2-D
+              MBE equation subject to a random initial data (uniformly
+              distribution). The pyramid edges form a random network
+              over the surface. The cells of the network grow in time
+              via a coarsening process. <b>Right: </b>The mean height
+              remains practically zero at all times, which verifies the
+              mass conservation of the numerical method.</h5>
+            <div align="center"><img src="pics/Screenshot_6.png" alt=""
+                height="150"><img src="pics/Screenshot_7.png" alt=""
+                height="145"></div>
+            <h5 align="left"><b>Left four plots:</b> Solution of 2-D
+              Cahn-Hilliard equation in time, subject to a non-mean-zero
+              initial condition. <b>Right:</b> Adaptive time-stepping
+              is used to speed up the computation while still accurately
+              captures different stages of phase separation.<br>
+            </h5>
+            <br>
+            <h2>Buckley-Leverett Equations</h2>
+            <p>In fluid dynamics, the Buckley-Leverett (BL) equation is
+              a model for two-phase flow in porous medium. The modified
+              Buckley-Leverett (MBL) has considered the dynamic
+              capillary pressure that results from difference in the
+              pressures of the two phases. One application for MBL is on
+              secondary recovery by water-drive in oil reservoir
+              simulation.<br>
+              <br>
+            </p>
+            <p> Rotational Modified BL (MBL) equation in 2-D <br>
+              $$u_t + \nabla\cdot\left(\vec{V}{\displaystyle
+              \frac{u^2}{u^2+M(1-u)^2}}\right) = \varepsilon\,\Delta\,u
+              + \varepsilon^2\tau \Delta u_t,\quad \vec{V}=[y,-x] ,
+              \quad \varepsilon&gt;0, \quad \tau&gt;0.$$ </p>
+            <h2 align="center"><img alt="" src="pics/Screenshot_1.png"
+                width="482" height="300" align="top"></h2>
+            <h5>Comparison of numerical solutions for BL (top row) and
+              MBL (bottom row) equations. Initial condition is a smooth
+              2-D Gaussian function cut off by a plateau. <b>Left: </b>View
+from
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              the top<b>. R</b><b>ight:</b> 3-D view. The numerical
+              solution for the MBL equation reproduces the non-monotone
+              profile observed in experiments.<br>
+            </h5>
+            <h3>Collaborators</h3>
+            <p><a
+                href="https://scholar.google.com/citations?user=cmJDXyQAAAAJ&amp;hl=en">Alexander
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Kurganov</a> (Southern University of Science and
+              Technology, China) <a
+                href="https://scholar.google.com/citations?user=RM6TOsUAAAAJ&amp;hl=en">Tao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Tang</a> (Southern University of Science and Technology,
+              China) <a href="http://www1.cmc.edu/pages/faculty/CKao/">Chiu-Yen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Kao</a> (Claremont McKenna College) <a
+                href="http://www2.math.ou.edu/%7Ewang/">Ying Wang</a>
+              (University of Oklahoma) <a
+                href="https://www.linkedin.com/in/yuanzhencheng/">Yuanzheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Cheng</a> (Goldman Sachs)<br>
+            </p>
+            <br>
+          </div>
         </div>
-      </div>
-      <div align="center">
-        <h3><br>
-        </h3>
-        <h3>Copyright © Zhuolin Qu | <a
-            href="http://www.html5webtemplates.co.uk">Website templates</a></h3>
+        <br>
       </div>
     </div>
+    <div align="center">
+      <h3><br>
+      </h3>
+      <h3>Copyright © Zhuolin Qu | <a
+          href="http://www.html5webtemplates.co.uk">Website templates</a></h3>
+    </div>
+    <script>
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
   </body>
 </html>
